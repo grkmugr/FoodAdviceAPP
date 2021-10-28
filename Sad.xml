@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+    tools:context=".SadbtnActivity"
+    android:background="#F31C1C"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageButton
+        android:layout_height="175dp"
+        android:layout_width="350dp"
+        app:srcCompat="@drawable/jelibon"
+        app:layout_constraintVertical_bias="0.533"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/imagepasta"
+        android:scaleType="fitXY"
+        android:id="@+id/imagejelibon"/>
+
+    <ImageButton
+        android:layout_height="175dp"
+        android:layout_width="350dp"
+        app:srcCompat="@drawable/pasta"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/imagetatlı"
+        android:scaleType="fitXY"
+        android:id="@+id/imagepasta"
+        android:layout_marginBottom="52dp"/>
+
+    <ImageButton
+        android:layout_height="175dp"
+        android:layout_width="350dp"
+        app:srcCompat="@drawable/tatlı"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.639"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:scaleType="fitXY"
+        android:id="@+id/imagetatlı"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/imagepasta"
+        android:id="@+id/txtjelibon"
+        app:layout_constraintTop_toBottomOf="@+id/imagejelibon"
+        android:textStyle="italic"
+        android:textSize="24sp"
+        android:text="JELİBON"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/txtpasta"
+        app:layout_constraintTop_toBottomOf="@+id/imagepasta"
+        android:textStyle="italic"
+        android:textSize="24sp"
+        android:text="PASTA "
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/txttatlı"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagetatlı"
+        android:textStyle="italic"
+        android:textSize="24sp"
+        android:text="TATLI"/>
+
+    <Button android:background="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/btngeri"
+        android:text="Geri"
+        android:layout_marginTop="8dp"
+        app:backgroundTint="#700F29"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

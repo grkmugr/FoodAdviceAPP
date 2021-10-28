@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+    tools:context=".SurprisedbtnActivity"
+    android:background="#F31C1C"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageButton
+        android:layout_height="175dp"
+        android:layout_width="350dp"
+        app:srcCompat="@drawable/yesilcay"
+        app:layout_constraintVertical_bias="0.626"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/imagesomon"
+        android:scaleType="fitXY"
+        android:id="@+id/imageyeşilçay"/>
+
+    <ImageButton
+        android:layout_height="175dp"
+        android:layout_width="350dp"
+        app:srcCompat="@drawable/somon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/imagepilav"
+        android:scaleType="fitXY"
+        android:id="@+id/imagesomon"
+        android:layout_marginBottom="48dp"/>
+
+    <ImageButton
+        android:layout_height="175dp"
+        android:layout_width="350dp"
+        app:srcCompat="@drawable/pilav"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:scaleType="fitXY"
+        android:id="@+id/imagepilav"
+        android:layout_marginBottom="52dp"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/imagesomon"
+        android:id="@+id/txtyeşilçay"
+        app:layout_constraintTop_toBottomOf="@+id/imageyeşilçay"
+        android:textStyle="italic"
+        android:textSize="24sp"
+        android:text="YEŞİLÇAY"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/txtsomon"
+        app:layout_constraintTop_toBottomOf="@+id/imagesomon"
+        android:textStyle="italic"
+        android:textSize="24sp"
+        android:text="SOMON"
+        android:layout_marginTop="12dp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/txtpilav"
+        app:layout_constraintTop_toBottomOf="@+id/imagepilav"
+        android:textStyle="italic"
+        android:textSize="24sp"
+        android:text="PİLAV"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:background="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/btngeri"
+        android:text="Geri"
+        android:layout_marginTop="8dp"
+        app:backgroundTint="#700F29"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

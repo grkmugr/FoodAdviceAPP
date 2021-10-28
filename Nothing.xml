@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+    tools:context=".NothingbtnActivity"
+    android:background="#F31C1C"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageButton
+        android:layout_height="400dp"
+        android:layout_width="350dp"
+        app:srcCompat="@drawable/su"
+        app:layout_constraintVertical_bias="0.328"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:scaleType="fitXY"
+        android:layout_marginTop="100dp"
+        android:id="@+id/imagesu"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="50dp"
+        android:id="@+id/txtsu"
+        app:layout_constraintTop_toBottomOf="@+id/imagesu"
+        android:textStyle="italic"
+        android:textSize="24sp"
+        android:text="SU"/>
+
+    <Button
+        android:background="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp"
+        android:id="@+id/btngeri"
+        android:text="Geri"
+        app:backgroundTint="#700F29"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

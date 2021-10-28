@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+    tools:context=".GirisActivity2"
+    android:background="#B5C0C8"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:srcCompat="@drawable/imageview3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="15dp"
+        android:id="@+id/imageView3"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="40dp"
+        android:id="@+id/txtgiris"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#070707"
+        android:text="@string/txtsignin"
+        android:layout_marginStart="40dp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="5dp"
+        android:id="@+id/signinuyarı"
+        app:layout_constraintTop_toBottomOf="@+id/txtgiris"
+        android:text="@string/singinuyarı"
+        android:layout_marginStart="40dp"/>
+
+    <TextView
+        android:layout_height="25dp"
+        android:layout_width="95dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtusername"
+        app:layout_constraintTop_toBottomOf="@+id/signinuyarı"
+        android:textSize="10dp"
+        android:text="@string/txtusername"
+        android:layout_marginStart="40dp"/>
+
+    <EditText
+        android:layout_height="35dp"
+        android:layout_width="235dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtname"
+        app:layout_constraintTop_toBottomOf="@+id/txtusername"
+        android:layout_marginStart="40dp"
+        android:inputType="textPersonName"
+        android:ems="10"/>
+
+    <TextView
+        android:layout_height="30dp"
+        android:layout_width="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtmail"
+        app:layout_constraintTop_toBottomOf="@+id/txtname"
+        android:textSize="18dp"
+        android:text="@string/txtmail"
+        android:layout_marginStart="40dp"/>
+
+    <EditText
+        android:layout_height="35dp"
+        android:layout_width="235dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="5dp"
+        android:id="@+id/editTextTextEmailAddress"
+        app:layout_constraintTop_toBottomOf="@+id/txtmail"
+        android:layout_marginStart="40dp"
+        android:inputType="textEmailAddress"
+        android:ems="10"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="15dp"
+        android:id="@+id/txtpassword"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress"
+        android:textSize="18dp"
+        android:text="@string/txtpassword"
+        android:layout_marginStart="40dp"/>
+
+    <EditText
+        android:layout_height="35dp"
+        android:layout_width="235dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="10dp"
+        android:id="@+id/editTextTextPassword2"
+        app:layout_constraintTop_toBottomOf="@+id/txtpassword"
+        android:layout_marginStart="40dp"
+        android:inputType="textPassword"
+        android:ems="10"/>
+
+    <ImageView
+        android:layout_height="25dp"
+        android:layout_width="25dp"
+        app:srcCompat="@drawable/txteye"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="540dp"
+        android:id="@+id/txtgörüntüvektor"
+        android:layout_marginStart="30dp"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPassword2"/>
+
+    <TextView
+        android:layout_height="40dp"
+        android:layout_width="235dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="5dp"
+        android:id="@+id/txtsigninuyari"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2"
+        android:text="@string/txtsigninuyari"
+        android:layout_marginStart="40dp"/>
+
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="280dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtsign"
+        app:layout_constraintTop_toBottomOf="@+id/txtsigninuyari"
+        android:text="Sign In"
+        android:layout_marginStart="50dp"
+        app:backgroundTint="#384A60"
+        android:backgroundTint="#384A60"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="380dp"
+        android:id="@+id/txtsignsoru"
+        app:layout_constraintTop_toBottomOf="@+id/txtgiris"
+        android:text="@string/txtsignsoru"
+        android:layout_marginStart="60dp"/>
+
+    <TextView
+        android:background="#B5C0C8"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/txtloginbtn"
+        android:textColor="#000000"
+        android:text="Log In"
+        android:layout_marginStart="50dp"
+        app:layout_constraintStart_toEndOf="@+id/txtsignsoru"
+        app:layout_constraintVertical_bias="0.962"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

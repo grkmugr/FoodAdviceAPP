@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+    tools:context=".GirisActivity"
+    android:visibility="visible"
+    android:background="#DDBDBD"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/txtuyarı"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="120dp"
+        android:id="@+id/loging"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="#0B0B0B"
+        android:text="LOGİNG"
+        android:layout_marginTop="174dp"
+        android:layout_marginStart="14dp"/>
+
+    <TextView
+        android:layout_height="40dp"
+        android:layout_width="80dp"
+        android:id="@+id/txtmail"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#070707"
+        android:text="E-mail:"
+        android:layout_marginTop="281dp"
+        android:layout_marginStart="37dp"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:id="@+id/txtmaill"
+        android:layout_marginTop="130dp"
+        android:layout_marginStart="35dp"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:layout_centerVertical="true"/>
+
+    <ImageView
+        android:layout_height="240dp"
+        android:layout_width="220dp"
+        android:id="@+id/imageView2"
+        android:layout_marginTop="35dp"
+        app:srcCompat="@drawable/txtmainbackpic"
+        android:layout_marginEnd="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:layout_height="40dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/txtpassword"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#090909"
+        android:text="Password:"
+        android:layout_marginTop="454dp"
+        android:layout_marginStart="40dp"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:layout_alignParentStart="true"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/editTextTextPassword"
+        android:layout_marginStart="35dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="180dp"
+        android:layout_alignParentBottom="true"/>
+
+    <ImageView
+        android:background="#DDBDBD"
+        android:layout_height="wrap_content"
+        android:layout_width="40dp"
+        android:id="@+id/imageView"
+        android:layout_marginTop="350dp"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/txteye"
+        android:layout_marginEnd="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:id="@+id/txtsignsorgu"
+        android:text="@string/txthesapsorgu"
+        android:layout_marginStart="40dp"
+        android:gravity="center_horizontal"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="100dp"
+        android:layout_alignParentBottom="true"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="225dp"
+        android:id="@+id/btnlogin"
+        android:text="Log In"
+        android:layout_marginStart="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="##660000"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/txtsign"
+        android:textColor="#D606A2"
+        android:text="Sing up"
+        android:layout_marginTop="580dp"
+        android:layout_marginEnd="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="120dp"/>
+
+</com.google.android.material.circularreveal.CircularRevealRelativeLayout>

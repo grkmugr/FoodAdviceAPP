@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+    tools:context=".ThoughtfulbtnActivity"
+    android:background="#F31C1C"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageButton
+        android:layout_height="175dp"
+        android:layout_width="350dp"
+        app:srcCompat="@drawable/meyve"
+        app:layout_constraintVertical_bias="0.595"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/imageçikolata"
+        android:scaleType="fitXY"
+        android:id="@+id/imagemeyve"/>
+
+    <ImageButton
+        android:layout_height="175dp"
+        android:layout_width="350dp"
+        app:srcCompat="@drawable/çikolata"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/imagegevrek"
+        android:scaleType="fitXY"
+        android:id="@+id/imageçikolata"
+        android:layout_marginBottom="60dp"/>
+
+    <ImageButton
+        android:layout_height="175dp"
+        android:layout_width="350dp"
+        app:srcCompat="@drawable/gevrek"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:scaleType="fitXY"
+        android:id="@+id/imagegevrek"
+        android:layout_marginBottom="52dp"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/imageçikolata"
+        android:id="@+id/txtmeyve"
+        app:layout_constraintTop_toBottomOf="@+id/imagemeyve"
+        android:textStyle="italic"
+        android:textSize="24sp"
+        android:text="MEYVE"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/txtçikolata"
+        app:layout_constraintTop_toBottomOf="@+id/imageçikolata"
+        android:textStyle="italic"
+        android:textSize="24sp"
+        android:text="ÇİKOLATA"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/txtgevrek"
+        app:layout_constraintTop_toBottomOf="@+id/imagegevrek"
+        android:textStyle="italic"
+        android:textSize="24sp"
+        android:text="GEVREK"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:background="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/btngeri"
+        android:text="Geri"
+        android:layout_marginTop="8dp"
+        app:backgroundTint="#700F29"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
