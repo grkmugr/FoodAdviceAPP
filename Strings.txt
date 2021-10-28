@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">Mobilproje</string>
+
+    <string name="txthesapsorgu">By Signing up , you are agree to Photo Terms of service and Privacy Policy.</string>
+
+    <string name="txtuyari">Enter Your Email and Password</string>
+
+    <string name="txtsignin">Singing</string>
+
+    <string name="singinuyarı">Enter Your Credentials To Continue</string>
+
+    <string name="txtusername">Username:</string>
+
+    <string name="txtmail">E Mail</string>
+
+    <string name="txtpassword">Passord</string>
+
+    <string name="txtsigninuyari">By Continuing you are agree to our Terms of service and Privacy Policy.</string>
+
+    <string name="txtsignsoru">Already Have An Account?</string>
+
+    <string name="editpassword"/>
+
+    <string name="Happybutton">mutluboton</string>
+
+    <string name="Angrybutton">kızgınbuton</string>
+
+    <string name="Sadbutton">üzgünbuton</string>
+
+    <string name="Surprisedbutton">şaşkınbuton</string>
+
+    <string name="Thoughtfulbutton">düşüncelibuton</string>
+
+    <string name="Recklessbutton">umursamazbuton</string>
+
+    <string name="happy">mutlu musun ?</string>
+
+    <string name="angry">kızgın mısın ?</string>
+
+    <string name="sad">üzgün müsün ?</string>
+
+    <string name="reckless">umursamaz mısın?</string>
+
+    <string name="surprised">şaşkın mısın?</string>
+
+    <string name="thoughtful">düşünceli misin?</string>
+
+    <string name="mainwriting">Moodunuza göre yemek önerimiz .</string>
+
+    <string name="Nothingbutton">Hiçbiri mi ?</string>
+
+    <string name="Moodscreen">Moodscreen</string>
+
+    <string name="Mealtimes">Mealtimes</string>
+
+    <string name="imageham">imghamburger</string>
+
+    <string name="imagekebap">imgkebap</string>
+
+    <string name="imagepizza">imgpizza</string>
+
+    <string name="imagebalık">imgbalık</string>
+
+    <string name="imageet">imget</string>
+
+    <string name="imagetavuk">imgtavuk</string>
+
+    <string name="imagejelibon">imgjelibon</string>
+
+    <string name="imagepasta">imgpasta</string>
+
+    <string name="imagetatlı">imgtatlı</string>
+
+    <string name="imagemeyve">imgmeyve</string>
+
+    <string name="imageçikolata">imgçikolata</string>
+
+    <string name="imagegevrek">imggevrek</string>
+
+    <string name="imagedondurma">imgdondurma</string>
+
+    <string name="imagekuruyemiş">imgkuruyemiş</string>
+
+    <string name="imageçörek">imgçörek</string>
+
+    <string name="imageyeşilçay">imgyeşilçay</string>
+
+    <string name="imagesomon">imgsomon</string>
+
+    <string name="imagepilav">imgpilav</string>
+
+    <string name="imagesu">imgsu</string>
+
+    <string name="txthamburger">HAMBURGER</string>
+
+    <string name="txtkebap">KEBAP</string>
+
+    <string name="txtpizza">PİZZA</string>
+
+    <string name="txtbalık">BALIK</string>
+
+    <string name="txtet">ET</string>
+
+    <string name="txttavuk">TAVUK</string>
+
+    <string name="txtjelibon">JELİBON</string>
+
+    <string name="txtpasta">PASTA</string>
+
+    <string name="txttatlı">TATLI</string>
+
+    <string name="txtmeyve">MEYVE</string>
+
+    <string name="txtçikolata">ÇİKOLATA</string>
+
+    <string name="txtgevrek">GEVREK</string>
+
+    <string name="txtdondurma">DONDURMA</string>
+
+    <string name="txtkuruyemiş">KURUYEMİŞ</string>
+
+    <string name="txtçörek">ÇÖREK</string>
+
+    <string name="txtyeşilçay">YEŞİLÇAY</string>
+
+    <string name="txtsomon">SOMON</string>
+
+    <string name="txtpilav">PİLAV</string>
+
+    <string name="txtsu">SU</string>
+
+    <string name="btngeri">Geri</string>
+</resources>
